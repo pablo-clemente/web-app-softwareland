@@ -18,7 +18,7 @@ const Hero = () => {
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0">
-              <Image src="/images/perfil.JPG" alt="" className="img-fluid mx-auto d-block"/>
+              <Image src="/images/perfil.jpg" alt="" className="img-fluid mx-auto d-block"/>
             </div>
           </Col>
         </Row>

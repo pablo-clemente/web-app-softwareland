@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Image from 'next/image';
 import { Container, Row, Col } from "reactstrap";
@@ -50,9 +49,9 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "/images/pablo-clemente-1-unsplash.jpeg", title : "Paseo de la Reforma", desc : "Esta imagen fue tomada desde el castillo de Chapultepec, me encanta la perspectiva y el hecho de poder alcanzar a observar los edificios, árboles y autos desde aquella distancia tan lejana, sin duda se ha convertido en una de mis fotografías favoritas (hasta el momento).", link : "https://unsplash.com/photos/d-twITljclM"},
-    {id : 2, img : "/images/pablo-clemente-2-unsplash.jpeg", title : "Museo Soumaya", desc : "Simplemente quedé fascinado por la arquitectura del museo pero quedé aún más fascinado con las obras y esculturas que se encuentran en su intrior. Este era unos de los lugaes que más deseaba conocer y fotografiar, definitivamente recomiendo visitarlo.", link : "https://unsplash.com/photos/zOOjv-c2FQ0"},
-    {id : 3, img : "/images/pablo-clemente-3-unsplash.jpg", title : "El Ángel de la Independencia", desc : "Esta la tome mientras caminaba de regreso al hotel, la idea era jugar con el contraste entre el detalle de la escultura y el desenfoque de las ramas. De igual forma la considero una de mis fotos favoritas de cuando iba empezando.", link : "https://unsplash.com/photos/vfaLqCrczhQ"},
+    {id : 1, img : "/pablo-clemente-1-unsplash.jpeg", title : "Paseo de la Reforma", desc : "Esta imagen fue tomada desde el castillo de Chapultepec, me encanta la perspectiva y el hecho de poder alcanzar a observar los edificios, árboles y autos desde aquella distancia tan lejana, sin duda se ha convertido en una de mis fotografías favoritas (hasta el momento).", link : "https://unsplash.com/photos/d-twITljclM"},
+    {id : 2, img : "/pablo-clemente-2-unsplash.jpeg", title : "Museo Soumaya", desc : "Simplemente quedé fascinado por la arquitectura del museo pero quedé aún más fascinado con las obras y esculturas que se encuentran en su intrior. Este era unos de los lugaes que más deseaba conocer y fotografiar, definitivamente recomiendo visitarlo.", link : "https://unsplash.com/photos/zOOjv-c2FQ0"},
+    {id : 3, img : "/pablo-clemente-3-unsplash.jpg", title : "El Ángel de la Independencia", desc : "Esta la tome mientras caminaba de regreso al hotel, la idea era jugar con el contraste entre el detalle de la escultura y el desenfoque de las ramas. De igual forma la considero una de mis fotos favoritas de cuando iba empezando.", link : "https://unsplash.com/photos/vfaLqCrczhQ"},
   ];
 return (
     <section className="section" id="feature">

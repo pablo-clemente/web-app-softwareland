@@ -6,7 +6,6 @@ import Service from '../components/Service';
 import About from '../components/About';
 import Footer from '../components/Footer';
 
-
 const Index = () => {
   return (
     <Layout pageTitle="Pablo Clemente">
